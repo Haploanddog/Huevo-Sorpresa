@@ -5,12 +5,15 @@
 package huevoSorpresa;
 
 /**
- *
- * @author Profesor
+ * Clase Main
+ * Creamos Huevos Sorpresa, los instanciamos y operamos con ellos
+ * @author David Quesada García / 1º DAM7
+ * @version 1.0
  */
 public class Main {
 
     /**
+     * 
      * @param args the command line arguments
      */
     public static void main(String[] args) {
@@ -25,6 +28,10 @@ public class Main {
         
     }
 
+    /**
+     * Método para operar con el número de unidades de un huevo sorpresa introducido por parámetro:
+     * @param h_sorpresa
+     */
     public static void opera_UnidadesQuesadaGarciaDavid2122(HuevoSorpresaQuesadaGarciaDavid2122 h_sorpresa) {
         /*Vamos a intentar sacar 2 huevos sorpresa, como no hay dinero suficiente saltará
         una excepción y no se modificará el nº de unidades de la tienda*/
@@ -38,6 +45,10 @@ public class Main {
         }
     }
 
+    /**
+     * Método para operar con el precio de un huevo sorpresa introducido por parámetro:
+     * @param h_sorpresa
+     */
     public static void opera_PrecioQuesadaGarciaDavid2122(HuevoSorpresaQuesadaGarciaDavid2122 h_sorpresa) {
         /*Vamos a aumentar el precio 3€, como no supera el precio máximo establecido la operación
         tendrá éxito y el nuevo precio será de 8€*/
